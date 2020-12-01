@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="bundle.js" defer></script>
+</head>
+<body>
+    <div id="form">
+
+        <p>Judul : <input type = "text" id = "txtJudul"> </input></p>
+        <p>Sipnosis :  <input type = "text" id = "txtSipnosis"> </input> </p>
+        <p>Gambar : <input type = "text" id = "txtGambar"> </input> 
+        <input type="button" value="Tambah" id="btnSend" onclick="bikinlist(document.getElementById('txtGambar'),document.getElementById('txtJudul'),document.getElementById('txtSipnosis'))" ></p>
+        
+
+    </div>
+    <div id = "root"></div>
+</body>
+</html>
